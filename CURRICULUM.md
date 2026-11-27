@@ -67,13 +67,13 @@ Historical claims must be sourced and dated. Distinguish normative specification
 - [x] 01 — SoC Foundations ([lesson](lessons/01-soc-foundations.md))
 - [x] 02 — Interconnect Foundations ([lesson](lessons/02-interconnect-foundations.md))
 - [x] 03 — APB ([lesson](lessons/03-apb-protocol-deep-dive.md))
-- [ ] 04 — AHB / AHB-Lite
+- [x] 04 — AHB / AHB-Lite ([lesson](lessons/04-ahb-ahb-lite-protocol-deep-dive.md))
 - [ ] 05 — AXI Fundamentals
-- [ ] Remaining sessions — planned
+- [ ] 05–38 — Remaining sessions — planned
 
 ## Current next lesson
 
-- [ ] 04 — AHB / AHB-Lite protocol deep dive
+- [ ] 05 — AXI fundamentals: five channels, VALID/READY, IDs, outstanding transactions and responses
 
 ## Reference design philosophy
 

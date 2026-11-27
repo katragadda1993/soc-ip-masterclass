@@ -5,7 +5,8 @@ A structured, protocol-first learning path from SoC fundamentals to advanced IP 
 ## Start here
 
 1. [Lesson 01 — SoC Foundations: From IP Blocks to a Working Silicon System](lessons/01-soc-foundations.md)
-2. [Full curriculum and roadmap](CURRICULUM.md)
+2. [Lesson 02 — On-chip Interconnect Foundations](lessons/02-interconnect-foundations.md)
+3. [Full curriculum and roadmap](CURRICULUM.md)
 
 ## How each lesson is taught
 
@@ -25,7 +26,8 @@ Historical claims are dated and sourced. Normative protocol requirements, docume
 ├── README.md
 ├── CURRICULUM.md
 └── lessons/
-    └── 01-soc-foundations.md
+    ├── 01-soc-foundations.md
+    └── 02-interconnect-foundations.md
 ~~~
 
 ## Contribution and source discipline

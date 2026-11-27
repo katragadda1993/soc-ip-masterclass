@@ -21,6 +21,7 @@ A structured, protocol-first learning path from SoC fundamentals to advanced IP 
 15. [Lesson 15 — Reset Architecture: POR, Reset Trees, Sequencing, RDC and Silicon Recovery](lessons/15-reset-architecture-reset-trees-rdc.md)
 16. [Lesson 16 — Power Management: Domains, UPF, DVFS, Idle Handshakes and Wakeup](lessons/16-power-management-domains-upf-dvfs-wakeup.md)
 17. [Lesson 17 — Interrupt Controllers and Timers: GIC, PLIC, AIA, Generic Timer, mtime, Watchdogs and Silicon Debug](lessons/17-interrupt-controllers-timers-deep-dive.md)
+18. [Lesson 18 — GPIO and Pin Control: Pad Ring, Electrical Behavior, Pinmux, Pinctrl and Silicon Debug](lessons/18-gpio-pin-control-pad-ring-pinmux.md)
 
 [Full curriculum and roadmap](CURRICULUM.md)
 
@@ -56,13 +57,17 @@ Historical claims are dated and sourced. Normative protocol requirements, docume
     ├── 11-sram-rom-otp-deep-dive.md
     ├── 12-ddr-lpddr-controller-phy-deep-dive.md
     ├── 13-dma-architecture-descriptors-rings-coherency.md
-    └── 14-clock-architecture-plls-clock-trees-cdc.md
+    ├── 14-clock-architecture-plls-clock-trees-cdc.md
+    ├── 15-reset-architecture-reset-trees-rdc.md
+    ├── 16-power-management-domains-upf-dvfs-wakeup.md
+    ├── 17-interrupt-controllers-timers-deep-dive.md
+    └── 18-gpio-pin-control-pad-ring-pinmux.md
 ~~~
 
 ## Current progress
 
-- Completed: Lessons 01–17.
-- Next: [Lesson 18 — GPIO and Pin Control](CURRICULUM.md#curriculum-roadmap).
+- Completed: Lessons 01–18.
+- Next: [Lesson 19 — I2C](CURRICULUM.md#curriculum-roadmap).
 
 ## Contribution and source discipline
 
@@ -71,7 +76,7 @@ Historical claims are dated and sourced. Normative protocol requirements, docume
 - Do not copy proprietary specification text, diagrams or tables. Write original explanations and diagrams and cite the authoritative source.
 - State assumptions for all performance calculations.
 - Never generalize an implementation-specific behavior as a protocol requirement.
-- Keep lesson numbering sequential and update the curriculum checklist when a lesson is published.
+- Keep lesson numbering sequential and update the curriculum index when a lesson is published.
 
 ## License
 

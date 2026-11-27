@@ -16,6 +16,7 @@ A structured, protocol-first learning path from SoC fundamentals to advanced IP 
 10. [Lesson 10 — Cache and Coherency: From SRAM Tags to Multi-Agent Consistency](lessons/10-cache-and-coherency-deep-dive.md)
 11. [Lesson 11 — SRAM, ROM and OTP: From Bitcell Physics to Secure SoC Memory Integration](lessons/11-sram-rom-otp-deep-dive.md)
 12. [Lesson 12 — DDR / LPDDR: DRAM Architecture, Controller Scheduling, PHY Training and Silicon Debug](lessons/12-ddr-lpddr-controller-phy-deep-dive.md)
+13. [Lesson 13 — DMA Architecture: Descriptors, Rings, Scatter/Gather, IOMMU, Coherency and Silicon Debug](lessons/13-dma-architecture-descriptors-rings-coherency.md)
 
 [Full curriculum and roadmap](CURRICULUM.md)
 
@@ -54,8 +55,8 @@ Historical claims are dated and sourced. Normative protocol requirements, docume
 
 ## Current progress
 
-- Completed: Lessons 01–12.
-- Next: [Lesson 13 — DMA Architecture](CURRICULUM.md#curriculum-roadmap).
+- Completed: Lessons 01–13.
+- Next: [Lesson 14 — Clock Architecture](CURRICULUM.md#curriculum-roadmap).
 
 ## Contribution and source discipline
 

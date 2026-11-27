@@ -19,6 +19,7 @@ A structured, protocol-first learning path from SoC fundamentals to advanced IP 
 13. [Lesson 13 — DMA Architecture: Descriptors, Rings, Scatter/Gather, IOMMU, Coherency and Silicon Debug](lessons/13-dma-architecture-descriptors-rings-coherency.md)
 14. [Lesson 14 — Clock Architecture: PLLs, Clock Trees, Gating, CDC and Silicon Timing](lessons/14-clock-architecture-plls-clock-trees-cdc.md)
 15. [Lesson 15 — Reset Architecture: POR, Reset Trees, Sequencing, RDC and Silicon Recovery](lessons/15-reset-architecture-reset-trees-rdc.md)
+16. [Lesson 16 — Power Management: Domains, UPF, DVFS, Idle Handshakes and Wakeup](lessons/16-power-management-domains-upf-dvfs-wakeup.md)
 
 [Full curriculum and roadmap](CURRICULUM.md)
 
@@ -59,8 +60,8 @@ Historical claims are dated and sourced. Normative protocol requirements, docume
 
 ## Current progress
 
-- Completed: Lessons 01–15.
-- Next: [Lesson 16 — Power Management](CURRICULUM.md#curriculum-roadmap).
+- Completed: Lessons 01–16.
+- Next: [Lesson 17 — Interrupts and Timers](CURRICULUM.md#curriculum-roadmap).
 
 ## Contribution and source discipline
 

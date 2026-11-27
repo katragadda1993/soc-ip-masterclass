@@ -12,6 +12,7 @@ A structured, protocol-first learning path from SoC fundamentals to advanced IP 
 6. [Lesson 06 — AXI Advanced: Bursts, Ordering, QoS, Atomics and Data Movement](lessons/06-axi-advanced-transactions-performance.md)
 7. [Lesson 07 — AXI Interconnect Implementation: Crossbar Microarchitecture, Routing, Arbitration and Debug](lessons/07-axi-interconnect-implementation.md)
 8. [Lesson 08 — Network-on-Chip: Architecture, Routers, Routing, Flow Control and Silicon Debug](lessons/08-network-on-chip-deep-dive.md)
+9. [Lesson 09 — CPU Subsystem: From Instruction Execution to Silicon Integration](lessons/09-cpu-subsystem-deep-dive.md)
 
 [Full curriculum and roadmap](CURRICULUM.md)
 
@@ -41,13 +42,14 @@ Historical claims are dated and sourced. Normative protocol requirements, docume
     ├── 05-axi-fundamentals-five-channels.md
     ├── 06-axi-advanced-transactions-performance.md
     ├── 07-axi-interconnect-implementation.md
-    └── 08-network-on-chip-deep-dive.md
+    ├── 08-network-on-chip-deep-dive.md
+    └── 09-cpu-subsystem-deep-dive.md
 ~~~
 
 ## Current progress
 
-- Completed: Lessons 01–08.
-- Next: [Lesson 09 — CPU Subsystem](CURRICULUM.md#curriculum-roadmap).
+- Completed: Lessons 01–09.
+- Next: [Lesson 10 — Cache and Coherency](CURRICULUM.md#curriculum-roadmap).
 
 ## Contribution and source discipline
 

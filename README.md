@@ -31,6 +31,11 @@ Historical claims are dated and sourced. Normative protocol requirements, docume
     └── 02-interconnect-foundations.md
 ~~~
 
+## Current progress
+
+- Completed: Lessons 01–03.
+- Next: [Lesson 04 — AHB / AHB-Lite protocol deep dive](CURRICULUM.md#curriculum-roadmap).
+
 ## Contribution and source discipline
 
 - Prefer official protocol specifications, architecture manuals and vendor programming guides.

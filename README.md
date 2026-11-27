@@ -8,7 +8,9 @@ A structured, protocol-first learning path from SoC fundamentals to advanced IP 
 2. [Lesson 02 — On-chip Interconnect Foundations](lessons/02-interconnect-foundations.md)
 3. [Lesson 03 — AMBA APB: Protocol, RTL Architecture and Silicon-Level Debug](lessons/03-apb-protocol-deep-dive.md)
 4. [Lesson 04 — AMBA AHB and AHB-Lite: Protocol, RTL Architecture and Silicon-Level Debug](lessons/04-ahb-ahb-lite-protocol-deep-dive.md)
-4. [Full curriculum and roadmap](CURRICULUM.md)
+5. [Lesson 05 — AMBA AXI Fundamentals: The Five Independent Channels](lessons/05-axi-fundamentals-five-channels.md)
+
+[Full curriculum and roadmap](CURRICULUM.md)
 
 ## How each lesson is taught
 
@@ -27,15 +29,19 @@ Historical claims are dated and sourced. Normative protocol requirements, docume
 .
 ├── README.md
 ├── CURRICULUM.md
+├── LICENSE
 └── lessons/
     ├── 01-soc-foundations.md
-    └── 02-interconnect-foundations.md
+    ├── 02-interconnect-foundations.md
+    ├── 03-apb-protocol-deep-dive.md
+    ├── 04-ahb-ahb-lite-protocol-deep-dive.md
+    └── 05-axi-fundamentals-five-channels.md
 ~~~
 
 ## Current progress
 
-- Completed: Lessons 01–04.
-- Next: [Lesson 05 — AXI fundamentals](CURRICULUM.md#curriculum-roadmap).
+- Completed: Lessons 01–05.
+- Next: [Lesson 06 — AXI advanced](CURRICULUM.md#curriculum-roadmap).
 
 ## Contribution and source discipline
 

@@ -76,14 +76,16 @@ Historical claims must be sourced and dated. Distinguish normative specification
 - [x] 10 — Cache and Coherency ([lesson](lessons/10-cache-and-coherency-deep-dive.md))
 - [x] 11 — SRAM / ROM / OTP ([lesson](lessons/11-sram-rom-otp-deep-dive.md))
 - [x] 12 — DDR / LPDDR ([lesson](lessons/12-ddr-lpddr-controller-phy-deep-dive.md))
-- [ ] 13–38 — Remaining sessions — planned
+- [x] 13 — DMA Architecture ([lesson](lessons/13-dma-architecture-descriptors-rings-coherency.md))
+- [ ] 14–38 — Remaining sessions — planned
 
 ## Current next lesson
 
 - [x] 10 — Cache and Coherency: cache lines, tags, replacement, write policies, miss handling, coherence protocols, ACE/CHI concepts, DMA coherency and cache maintenance ([lesson](lessons/10-cache-and-coherency-deep-dive.md)).
 - [x] 11 — SRAM / ROM / OTP: macro interfaces, 6T bitcell operation, banking, ECC/integrity, scrambling, retention, MBIST/BISR, ROM integrity and OTP provisioning ([lesson](lessons/11-sram-rom-otp-deep-dive.md)).
 - [x] 12 — DDR / LPDDR: 1T1C DRAM, command/state model, timing scoreboard, controller scheduling, address mapping, bandwidth/latency, PHY training, LPDDR power states, ECC/RAS, verification and silicon debug ([lesson](lessons/12-ddr-lpddr-controller-phy-deep-dive.md)).
-- [ ] 13 — DMA Architecture: descriptors, rings, scatter-gather, alignment, IOMMU, coherency, interrupts and throughput.
+- [x] 13 — DMA Architecture: descriptors, rings, scatter-gather, alignment, IOMMU, coherency, interrupts and throughput ([lesson](lessons/13-dma-architecture-descriptors-rings-coherency.md)).
+- [ ] 14 — Clock Architecture: PLLs, muxes, dividers, gating, jitter, clock trees, CDC and clock monitors.
 
 ## Reference design philosophy
 

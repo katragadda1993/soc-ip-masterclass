@@ -13,6 +13,7 @@ A structured, protocol-first learning path from SoC fundamentals to advanced IP 
 7. [Lesson 07 — AXI Interconnect Implementation: Crossbar Microarchitecture, Routing, Arbitration and Debug](lessons/07-axi-interconnect-implementation.md)
 8. [Lesson 08 — Network-on-Chip: Architecture, Routers, Routing, Flow Control and Silicon Debug](lessons/08-network-on-chip-deep-dive.md)
 9. [Lesson 09 — CPU Subsystem: From Instruction Execution to Silicon Integration](lessons/09-cpu-subsystem-deep-dive.md)
+10. [Lesson 10 — Cache and Coherency: From SRAM Tags to Multi-Agent Consistency](lessons/10-cache-and-coherency-deep-dive.md)
 
 [Full curriculum and roadmap](CURRICULUM.md)
 
@@ -43,13 +44,14 @@ Historical claims are dated and sourced. Normative protocol requirements, docume
     ├── 06-axi-advanced-transactions-performance.md
     ├── 07-axi-interconnect-implementation.md
     ├── 08-network-on-chip-deep-dive.md
-    └── 09-cpu-subsystem-deep-dive.md
+    ├── 09-cpu-subsystem-deep-dive.md
+    └── 10-cache-and-coherency-deep-dive.md
 ~~~
 
 ## Current progress
 
-- Completed: Lessons 01–09.
-- Next: [Lesson 10 — Cache and Coherency](CURRICULUM.md#curriculum-roadmap).
+- Completed: Lessons 01–10.
+- Next: [Lesson 11 — SRAM, ROM and OTP](CURRICULUM.md#curriculum-roadmap).
 
 ## Contribution and source discipline
 

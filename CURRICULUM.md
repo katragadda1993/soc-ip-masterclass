@@ -34,7 +34,7 @@ Historical claims must be sourced and dated. Distinguish normative specification
 | 09 | CPU subsystem | ISA vs microarchitecture, pipeline, hazards, retirement, privilege, MMU/MPU, TLB, PMP/PMA, exceptions, interrupts, debug, boot and bus adapters |
 | 10 | Cache and coherency | Cache hierarchy, write policies, snoop, directory, ACE/CHI concepts, barriers and DMA coherency |
 | 11 | SRAM / ROM / OTP | Macro interfaces, banking, ECC, scrambling, retention, BIST, ROM integrity and fuse semantics |
-| 12 | DDR / LPDDR | DRAM organization, commands, timing, refresh, controller scheduling, training, PHY and SI |
+| 12 | DDR / LPDDR | DRAM organization, ACT/PRE/RD/WR/REF commands, timing, refresh, bank scheduling, address mapping, DDR/LPDDR/HBM trade-offs, PHY training, SI/PI, ECC/RAS and silicon characterization |
 | 13 | DMA architecture | Descriptors, rings, scatter-gather, alignment, IOMMU, coherency, interrupts and throughput |
 | 14 | Clock architecture | PLLs, muxes, dividers, gating, jitter, clock trees, CDC and clock monitors |
 | 15 | Reset architecture | POR, warm/watchdog reset, reset trees, sequencing, RDC, reset domains and recovery |
@@ -75,13 +75,15 @@ Historical claims must be sourced and dated. Distinguish normative specification
 - [x] 09 — CPU Subsystem ([lesson](lessons/09-cpu-subsystem-deep-dive.md))
 - [x] 10 — Cache and Coherency ([lesson](lessons/10-cache-and-coherency-deep-dive.md))
 - [x] 11 — SRAM / ROM / OTP ([lesson](lessons/11-sram-rom-otp-deep-dive.md))
-- [ ] 12–38 — Remaining sessions — planned
+- [x] 12 — DDR / LPDDR ([lesson](lessons/12-ddr-lpddr-controller-phy-deep-dive.md))
+- [ ] 13–38 — Remaining sessions — planned
 
 ## Current next lesson
 
 - [x] 10 — Cache and Coherency: cache lines, tags, replacement, write policies, miss handling, coherence protocols, ACE/CHI concepts, DMA coherency and cache maintenance ([lesson](lessons/10-cache-and-coherency-deep-dive.md)).
 - [x] 11 — SRAM / ROM / OTP: macro interfaces, 6T bitcell operation, banking, ECC/integrity, scrambling, retention, MBIST/BISR, ROM integrity and OTP provisioning ([lesson](lessons/11-sram-rom-otp-deep-dive.md)).
-- [ ] 12 — DDR / LPDDR: DRAM organization, command timing, controller scheduling, PHY training, refresh, power states and post-silicon characterization.
+- [x] 12 — DDR / LPDDR: 1T1C DRAM, command/state model, timing scoreboard, controller scheduling, address mapping, bandwidth/latency, PHY training, LPDDR power states, ECC/RAS, verification and silicon debug ([lesson](lessons/12-ddr-lpddr-controller-phy-deep-dive.md)).
+- [ ] 13 — DMA Architecture: descriptors, rings, scatter-gather, alignment, IOMMU, coherency, interrupts and throughput.
 
 ## Reference design philosophy
 

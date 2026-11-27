@@ -70,11 +70,12 @@ Historical claims must be sourced and dated. Distinguish normative specification
 - [x] 04 — AHB / AHB-Lite ([lesson](lessons/04-ahb-ahb-lite-protocol-deep-dive.md))
 - [x] 05 — AXI Fundamentals ([lesson](lessons/05-axi-fundamentals-five-channels.md))
 - [x] 06 — AXI Advanced ([lesson](lessons/06-axi-advanced-transactions-performance.md))
-- [ ] 07–38 — Remaining sessions — planned
+- [x] 07 — AXI Interconnect Implementation ([lesson](lessons/07-axi-interconnect-implementation.md))
+- [ ] 08–38 — Remaining sessions — planned
 
 ## Current next lesson
 
-- [ ] 07 — AXI interconnect implementation: crossbar microarchitecture, arbitration, routing, buffering, response tracking, deadlock, timing closure and performance instrumentation.
+- [ ] 08 — Network-on-Chip (NoC): routers, links, packetization, virtual channels, routing, flow control, QoS, topology and coherency transport.
 
 ## Reference design philosophy
 

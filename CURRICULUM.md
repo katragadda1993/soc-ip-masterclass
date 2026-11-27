@@ -41,7 +41,7 @@ Historical claims must be sourced and dated. Distinguish normative specification
 | 16 | Power management | Power equations and historical rationale, power-domain partitioning, header/footer switches, isolation, retention, level shifters, UPF 4.0 intent, PMU FSMs, Q/P-Channel handshakes, OPP/DVFS, idle residency, wakeup, DMA/cache/NoC quiescence, power-aware verification, IR/inrush and silicon characterization |
 | 17 | Interrupt controllers and timers | Edge/level, pending/active lifecycle, GICv2-v4, PLIC, AIA/APLIC/IMSIC, MSI, claim/complete/EOI/deactivate, Arm Generic Timer, RISC-V mtime/mtimecmp, watchdog, latency/jitter, AON, CDC, reset/power, verification and silicon debug |
 | 18 | GPIO and pin control | GPIO versus pinctrl, 8255A-era programmable I/O context, pad-ring/I/O-cell architecture, push-pull/open-drain/Hi-Z, pulls, Schmitt input, drive/slew, voltage banks, input synchronizers and filters, interrupt/W1C behavior, pinmux groups/daisy chains, Linux pinctrl/GPIO states, straps, reset/wakeup, RC/debounce calculations, electrical validation and board-level debug |
-| 19 | I2C | Open-drain signaling, START/STOP, ACK/NACK, arbitration, clock stretching, timing and bus recovery |
+| 19 | I2C | 1982 origin and two-wire rationale; open-drain/wired-AND pad behavior; SDA/SCL timing; 7-/10-bit addressing; START/repeated-START/STOP; ACK/NACK; multi-controller clock synchronization and arbitration; clock stretching; Standard/Fast/Fm+/Hs/UFm distinctions; pull-up RC sizing; controller/target FSMs, FIFOs, timing registers, CDC/filtering, Linux adapter/client model, bus recovery, UVM/SVA, electrical validation and silicon debug |
 | 20 | SPI | Modes, chip select, full duplex, FIFO, DMA, timing and multi-device topologies |
 | 21 | I3C | SDR/HDR, dynamic addressing, CCCs, in-band interrupts, legacy I2C coexistence |
 | 22 | UART | Sampling, baud generation, framing, FIFOs, flow control and error detection |
@@ -82,10 +82,11 @@ Historical claims must be sourced and dated. Distinguish normative specification
 - [x] 16 — Power Management ([lesson](lessons/16-power-management-domains-upf-dvfs-wakeup.md))
 - [x] 17 — Interrupt Controllers and Timers ([lesson](lessons/17-interrupt-controllers-timers-deep-dive.md))
 - [x] 18 — GPIO and Pin Control ([lesson](lessons/18-gpio-pin-control-pad-ring-pinmux.md))
+- [x] 19 — I2C Bus ([lesson](lessons/19-i2c-protocol-controller-rtl-electrical-debug.md))
 
 ## Next lesson
 
-**Session 19 — I2C:** open-drain signaling, START/STOP, ACK/NACK, arbitration, clock stretching, controller/target state machines, timing, register programming, bus recovery, verification and silicon debug.
+**Session 20 — SPI:** clock polarity/phase, chip-select timing, full-duplex shift paths, controller/target RTL, FIFO/DMA integration, multi-device topologies, timing closure, verification and silicon debug.
 
 ## Reference design philosophy
 

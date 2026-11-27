@@ -17,6 +17,7 @@ A structured, protocol-first learning path from SoC fundamentals to advanced IP 
 11. [Lesson 11 — SRAM, ROM and OTP: From Bitcell Physics to Secure SoC Memory Integration](lessons/11-sram-rom-otp-deep-dive.md)
 12. [Lesson 12 — DDR / LPDDR: DRAM Architecture, Controller Scheduling, PHY Training and Silicon Debug](lessons/12-ddr-lpddr-controller-phy-deep-dive.md)
 13. [Lesson 13 — DMA Architecture: Descriptors, Rings, Scatter/Gather, IOMMU, Coherency and Silicon Debug](lessons/13-dma-architecture-descriptors-rings-coherency.md)
+14. [Lesson 14 — Clock Architecture: PLLs, Clock Trees, Gating, CDC and Silicon Timing](lessons/14-clock-architecture-plls-clock-trees-cdc.md)
 
 [Full curriculum and roadmap](CURRICULUM.md)
 
@@ -50,13 +51,15 @@ Historical claims are dated and sourced. Normative protocol requirements, docume
     ├── 09-cpu-subsystem-deep-dive.md
     ├── 10-cache-and-coherency-deep-dive.md
     ├── 11-sram-rom-otp-deep-dive.md
-    └── 12-ddr-lpddr-controller-phy-deep-dive.md
+    ├── 12-ddr-lpddr-controller-phy-deep-dive.md
+    ├── 13-dma-architecture-descriptors-rings-coherency.md
+    └── 14-clock-architecture-plls-clock-trees-cdc.md
 ~~~
 
 ## Current progress
 
-- Completed: Lessons 01–13.
-- Next: [Lesson 14 — Clock Architecture](CURRICULUM.md#curriculum-roadmap).
+- Completed: Lessons 01–14.
+- Next: [Lesson 15 — Reset Architecture](CURRICULUM.md#curriculum-roadmap).
 
 ## Contribution and source discipline
 

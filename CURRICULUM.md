@@ -74,12 +74,14 @@ Historical claims must be sourced and dated. Distinguish normative specification
 - [x] 08 — Network-on-Chip ([lesson](lessons/08-network-on-chip-deep-dive.md))
 - [x] 09 — CPU Subsystem ([lesson](lessons/09-cpu-subsystem-deep-dive.md))
 - [x] 10 — Cache and Coherency ([lesson](lessons/10-cache-and-coherency-deep-dive.md))
-- [ ] 11–38 — Remaining sessions — planned
+- [x] 11 — SRAM / ROM / OTP ([lesson](lessons/11-sram-rom-otp-deep-dive.md))
+- [ ] 12–38 — Remaining sessions — planned
 
 ## Current next lesson
 
 - [x] 10 — Cache and Coherency: cache lines, tags, replacement, write policies, miss handling, coherence protocols, ACE/CHI concepts, DMA coherency and cache maintenance ([lesson](lessons/10-cache-and-coherency-deep-dive.md)).
-- [ ] 11 — SRAM / ROM / OTP: macro interfaces, banking, ECC, scrambling, retention, BIST, ROM integrity and fuse semantics.
+- [x] 11 — SRAM / ROM / OTP: macro interfaces, 6T bitcell operation, banking, ECC/integrity, scrambling, retention, MBIST/BISR, ROM integrity and OTP provisioning ([lesson](lessons/11-sram-rom-otp-deep-dive.md)).
+- [ ] 12 — DDR / LPDDR: DRAM organization, command timing, controller scheduling, PHY training, refresh, power states and post-silicon characterization.
 
 ## Reference design philosophy
 

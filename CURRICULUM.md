@@ -31,7 +31,7 @@ Historical claims must be sourced and dated. Distinguish normative specification
 | 06 | AXI advanced | Bursts, unaligned transfers, strobes, ordering, QoS, atomics, AXI-Lite, AXI-Stream, width conversion and performance |
 | 07 | Interconnect implementation | Crossbar microarchitecture, muxing, buffering, routing, deadlock, performance and timing closure |
 | 08 | NoC | Routers, links, virtual channels, packetization, topology, routing, flow control, QoS, coherent transport, deadlock and performance |
-| 09 | CPU subsystem | Pipeline, privilege, MMU/MPU, TLB, exceptions, debug, boot interface and bus adapters |
+| 09 | CPU subsystem | ISA vs microarchitecture, pipeline, hazards, retirement, privilege, MMU/MPU, TLB, PMP/PMA, exceptions, interrupts, debug, boot and bus adapters |
 | 10 | Cache and coherency | Cache hierarchy, write policies, snoop, directory, ACE/CHI concepts, barriers and DMA coherency |
 | 11 | SRAM / ROM / OTP | Macro interfaces, banking, ECC, scrambling, retention, BIST, ROM integrity and fuse semantics |
 | 12 | DDR / LPDDR | DRAM organization, commands, timing, refresh, controller scheduling, training, PHY and SI |
@@ -72,12 +72,13 @@ Historical claims must be sourced and dated. Distinguish normative specification
 - [x] 06 — AXI Advanced ([lesson](lessons/06-axi-advanced-transactions-performance.md))
 - [x] 07 — AXI Interconnect Implementation ([lesson](lessons/07-axi-interconnect-implementation.md))
 - [x] 08 — Network-on-Chip ([lesson](lessons/08-network-on-chip-deep-dive.md))
-- [ ] 09–38 — Remaining sessions — planned
+- [x] 09 — CPU Subsystem ([lesson](lessons/09-cpu-subsystem-deep-dive.md))
+- [ ] 10–38 — Remaining sessions — planned
 
 ## Current next lesson
 
-- [ ] 09 — CPU Subsystem: pipeline, privilege, MMU/MPU, TLB, exceptions, debug, boot interface and bus adapters.
+- [ ] 10 — Cache and Coherency: cache lines, tags, replacement, write policies, miss handling, coherence protocols, ACE/CHI concepts, DMA coherency and cache maintenance.
 
 ## Reference design philosophy
 
-Use public reference implementations such as OpenTitan, lowRISC Ibex, open-source RISC-V SoCs and public vendor documentation to connect theory to real RTL. Clearly label which details are specific to a reference implementation and which are protocol requirements.
+Use public reference implementations such as OpenTitan, lowRISC Ibex, CVA6, open-source RISC-V SoCs and public vendor documentation to connect theory to real RTL. Clearly label which details are specific to a reference implementation and which are protocol requirements.

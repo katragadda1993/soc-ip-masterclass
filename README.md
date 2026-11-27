@@ -6,7 +6,8 @@ A structured, protocol-first learning path from SoC fundamentals to advanced IP 
 
 1. [Lesson 01 — SoC Foundations: From IP Blocks to a Working Silicon System](lessons/01-soc-foundations.md)
 2. [Lesson 02 — On-chip Interconnect Foundations](lessons/02-interconnect-foundations.md)
-3. [Full curriculum and roadmap](CURRICULUM.md)
+3. [Lesson 03 — AMBA APB: Protocol, RTL Architecture and Silicon-Level Debug](lessons/03-apb-protocol-deep-dive.md)
+4. [Full curriculum and roadmap](CURRICULUM.md)
 
 ## How each lesson is taught
 

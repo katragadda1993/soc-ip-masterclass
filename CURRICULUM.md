@@ -66,10 +66,14 @@ Historical claims must be sourced and dated. Distinguish normative specification
 
 - [x] 01 — SoC Foundations ([lesson](lessons/01-soc-foundations.md))
 - [x] 02 — Interconnect Foundations ([lesson](lessons/02-interconnect-foundations.md))
-- [ ] 03 — APB
+- [x] 03 — APB ([lesson](lessons/03-apb-protocol-deep-dive.md))
 - [ ] 04 — AHB / AHB-Lite
 - [ ] 05 — AXI Fundamentals
 - [ ] Remaining sessions — planned
+
+## Current next lesson
+
+- [ ] 04 — AHB / AHB-Lite protocol deep dive
 
 ## Reference design philosophy
 

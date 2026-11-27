@@ -73,11 +73,13 @@ Historical claims must be sourced and dated. Distinguish normative specification
 - [x] 07 — AXI Interconnect Implementation ([lesson](lessons/07-axi-interconnect-implementation.md))
 - [x] 08 — Network-on-Chip ([lesson](lessons/08-network-on-chip-deep-dive.md))
 - [x] 09 — CPU Subsystem ([lesson](lessons/09-cpu-subsystem-deep-dive.md))
-- [ ] 10–38 — Remaining sessions — planned
+- [x] 10 — Cache and Coherency ([lesson](lessons/10-cache-and-coherency-deep-dive.md))
+- [ ] 11–38 — Remaining sessions — planned
 
 ## Current next lesson
 
-- [ ] 10 — Cache and Coherency: cache lines, tags, replacement, write policies, miss handling, coherence protocols, ACE/CHI concepts, DMA coherency and cache maintenance.
+- [x] 10 — Cache and Coherency: cache lines, tags, replacement, write policies, miss handling, coherence protocols, ACE/CHI concepts, DMA coherency and cache maintenance ([lesson](lessons/10-cache-and-coherency-deep-dive.md)).
+- [ ] 11 — SRAM / ROM / OTP: macro interfaces, banking, ECC, scrambling, retention, BIST, ROM integrity and fuse semantics.
 
 ## Reference design philosophy
 

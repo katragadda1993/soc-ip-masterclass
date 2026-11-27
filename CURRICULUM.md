@@ -68,12 +68,12 @@ Historical claims must be sourced and dated. Distinguish normative specification
 - [x] 02 — Interconnect Foundations ([lesson](lessons/02-interconnect-foundations.md))
 - [x] 03 — APB ([lesson](lessons/03-apb-protocol-deep-dive.md))
 - [x] 04 — AHB / AHB-Lite ([lesson](lessons/04-ahb-ahb-lite-protocol-deep-dive.md))
-- [ ] 05 — AXI Fundamentals
-- [ ] 05–38 — Remaining sessions — planned
+- [x] 05 — AXI Fundamentals ([lesson](lessons/05-axi-fundamentals-five-channels.md))
+- [ ] 06–38 — Remaining sessions — planned
 
 ## Current next lesson
 
-- [ ] 05 — AXI fundamentals: five channels, VALID/READY, IDs, outstanding transactions and responses
+- [ ] 06 — AXI advanced: burst address generation, unaligned accesses, byte strobes, ordering, exclusive accesses, QoS, AXI4-Lite, AXI4-Stream, bridges and width conversion.
 
 ## Reference design philosophy
 

@@ -24,6 +24,7 @@ A structured, protocol-first learning path from SoC fundamentals to advanced IP 
 18. [Lesson 18 — GPIO and Pin Control: Pad Ring, Electrical Behavior, Pinmux, Pinctrl and Silicon Debug](lessons/18-gpio-pin-control-pad-ring-pinmux.md)
 19. [Lesson 19 — I²C Bus: Protocol, Controller RTL, Electrical Design and Silicon Debug](lessons/19-i2c-protocol-controller-rtl-electrical-debug.md)
 20. [Lesson 20 — SPI: Protocol, Controller RTL, Flash, QSPI and Silicon Debug](lessons/20-spi-protocol-controller-rtl-flash-qspi-debug.md)
+21. [Lesson 21 — I3C: Dynamic Addressing, CCCs, IBI, HDR, RTL and Silicon Debug](lessons/21-i3c-protocol-daa-ccc-ibi-hdr-rtl-debug.md)
 
 [Full curriculum and roadmap](CURRICULUM.md)
 
@@ -65,13 +66,14 @@ Historical claims are dated and sourced. Normative protocol requirements, docume
     ├── 17-interrupt-controllers-timers-deep-dive.md
     ├── 18-gpio-pin-control-pad-ring-pinmux.md
     ├── 19-i2c-protocol-controller-rtl-electrical-debug.md
-    └── 20-spi-protocol-controller-rtl-flash-qspi-debug.md
+    ├── 20-spi-protocol-controller-rtl-flash-qspi-debug.md
+    └── 21-i3c-protocol-daa-ccc-ibi-hdr-rtl-debug.md
 ~~~
 
 ## Current progress
 
-- Completed: Lessons 01–20.
-- Next: [Lesson 21 — I3C](CURRICULUM.md#curriculum-roadmap).
+- Completed: Lessons 01–21.
+- Next: [Lesson 22 — UART](CURRICULUM.md#curriculum-roadmap).
 
 ## Contribution and source discipline
 

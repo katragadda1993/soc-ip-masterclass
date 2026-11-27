@@ -39,7 +39,7 @@ Historical claims must be sourced and dated. Distinguish normative specification
 | 14 | Clock architecture | PLLs, reference sources, frequency synthesis, muxes, dividers, glitch-free switching, ICG/clock gating, jitter, phase noise, CTS topologies, skew, setup/hold, CDC/RDC, clock monitors, DVFS sequencing and silicon characterization |
 | 15 | Reset architecture | POR, external/brownout/watchdog/software/debug reset sources, reset trees, asynchronous assertion/synchronous release, reset sequencing, quiesce/drain/isolation, RDC, reset-cause retention, power/clock interaction and silicon recovery |
 | 16 | Power management | Power equations and historical rationale, power-domain partitioning, header/footer switches, isolation, retention, level shifters, UPF 4.0 intent, PMU FSMs, Q/P-Channel handshakes, OPP/DVFS, idle residency, wakeup, DMA/cache/NoC quiescence, power-aware verification, IR/inrush and silicon characterization |
-| 17 | Interrupts and timers | Edge/level, priority, PLIC/GIC concepts, claim/complete, timer, watchdog and latency |
+| 17 | Interrupt controllers and timers | Edge/level, pending/active lifecycle, GICv2-v4, PLIC, AIA/APLIC/IMSIC, MSI, claim/complete/EOI/deactivate, Arm Generic Timer, RISC-V mtime/mtimecmp, watchdog, latency/jitter, AON, CDC, reset/power, verification and silicon debug |
 | 18 | GPIO and pinmux | Pad ring, drive, pulls, muxing, debounce, straps, interrupts and electrical constraints |
 | 19 | I2C | Open-drain signaling, START/STOP, ACK/NACK, arbitration, clock stretching, timing and bus recovery |
 | 20 | SPI | Modes, chip select, full duplex, FIFO, DMA, timing and multi-device topologies |
@@ -80,20 +80,11 @@ Historical claims must be sourced and dated. Distinguish normative specification
 - [x] 14 — Clock Architecture ([lesson](lessons/14-clock-architecture-plls-clock-trees-cdc.md))
 - [x] 15 — Reset Architecture ([lesson](lessons/15-reset-architecture-reset-trees-rdc.md))
 - [x] 16 — Power Management ([lesson](lessons/16-power-management-domains-upf-dvfs-wakeup.md))
-- [ ] 17–38 — Remaining sessions — planned
+- [x] 17 — Interrupt Controllers and Timers ([lesson](lessons/17-interrupt-controllers-timers-deep-dive.md))
 
-## Current next lesson
+## Next lesson
 
-- [x] 10 — Cache and Coherency: cache lines, tags, replacement, write policies, miss handling, coherence protocols, ACE/CHI concepts, DMA coherency and cache maintenance ([lesson](lessons/10-cache-and-coherency-deep-dive.md)).
-- [x] 11 — SRAM / ROM / OTP: macro interfaces, 6T bitcell operation, banking, ECC/integrity, scrambling, retention, MBIST/BISR, ROM integrity and OTP provisioning ([lesson](lessons/11-sram-rom-otp-deep-dive.md)).
-- [x] 12 — DDR / LPDDR: 1T1C DRAM, command/state model, timing scoreboard, controller scheduling, address mapping, bandwidth/latency, PHY training, LPDDR power states, ECC/RAS, verification and silicon debug ([lesson](lessons/12-ddr-lpddr-controller-phy-deep-dive.md)).
-- [x] 13 — DMA Architecture: descriptors, rings, scatter-gather, alignment, IOMMU, coherency, interrupts and throughput ([lesson](lessons/13-dma-architecture-descriptors-rings-coherency.md)).
-- [x] 14 — Clock Architecture: reference sources, PLL frequency synthesis, muxes/dividers, glitch-free switching, ICG, CTS, jitter/skew, setup/hold, CDC/RDC, reset sequencing, DVFS, clock monitoring and post-silicon characterization ([lesson](lessons/14-clock-architecture-plls-clock-trees-cdc.md)).
-- [x] 15 — Reset Architecture: POR, reset-source taxonomy, reset trees, asynchronous assertion/synchronous release, reset sequencing, quiesce/drain/isolation, RDC, reset-cause retention, clock/power interaction
-- [x] 16 — Power Management: power equations, domain partitioning, switches, isolation, retention, level shifting, UPF, PMU sequencing, Q/P-Channel concepts, DVFS/OPPs, idle-state policy, wakeup, DMA/cache/NoC coordination and power-aware silicon validation ([lesson](lessons/16-power-management-domains-upf-dvfs-wakeup.md)).
-
-**Next:** Session 17 — Interrupt Controllers and Timers. and silicon recovery ([lesson](lessons/15-reset-architecture-reset-trees-rdc.md)).
-- [ ] 16 — Power Management: power domains, isolation, retention, DVFS, idle handshakes, wakeup and power-state coordination.
+**Session 18 — GPIO and Pin Control:** pad-ring architecture, electrical behavior, pin multiplexing, pull-up/down, drive strength, slew rate, debounce, GPIO interrupts, boot straps, register programming, timing, board-level integration, verification and silicon bring-up.
 
 ## Reference design philosophy
 

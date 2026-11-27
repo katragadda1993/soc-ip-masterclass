@@ -64,8 +64,8 @@ Historical claims must be sourced and dated. Distinguish normative specification
 
 ## Session status
 
-- [x] 01 — SoC Foundations
-- [ ] 02 — Interconnect Foundations
+- [x] 01 — SoC Foundations ([lesson](lessons/01-soc-foundations.md))
+- [x] 02 — Interconnect Foundations ([lesson](lessons/02-interconnect-foundations.md))
 - [ ] 03 — APB
 - [ ] 04 — AHB / AHB-Lite
 - [ ] 05 — AXI Fundamentals

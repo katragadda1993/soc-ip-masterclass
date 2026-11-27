@@ -46,7 +46,8 @@ Historical claims are dated and sourced. Normative protocol requirements, docume
     ├── 07-axi-interconnect-implementation.md
     ├── 08-network-on-chip-deep-dive.md
     ├── 09-cpu-subsystem-deep-dive.md
-    └── 10-cache-and-coherency-deep-dive.md
+    ├── 10-cache-and-coherency-deep-dive.md
+    └── 11-sram-rom-otp-deep-dive.md
 ~~~
 
 ## Current progress

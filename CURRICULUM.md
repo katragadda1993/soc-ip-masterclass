@@ -28,7 +28,7 @@ Historical claims must be sourced and dated. Distinguish normative specification
 | 03 | APB | Setup/access phases, PSEL/PENABLE/PREADY/PSLVERR, register interface, bridge, low-power rationale |
 | 04 | AHB / AHB-Lite | Address/data pipelining, HTRANS, HREADY, bursts, arbitration, wait states, split/retry history |
 | 05 | AXI fundamentals | Five channels, VALID/READY, independent address/data, IDs, responses, outstanding transactions |
-| 06 | AXI advanced | Bursts, unaligned transfers, strobes, ordering, QoS, atomics, AXI-Lite, AXI-Stream |
+| 06 | AXI advanced | Bursts, unaligned transfers, strobes, ordering, QoS, atomics, AXI-Lite, AXI-Stream, width conversion and performance |
 | 07 | Interconnect implementation | Crossbar microarchitecture, muxing, buffering, routing, deadlock, performance and timing closure |
 | 08 | NoC | Routers, links, virtual channels, packetization, topology, routing, flow control, QoS and coherency transport |
 | 09 | CPU subsystem | Pipeline, privilege, MMU/MPU, TLB, exceptions, debug, boot interface and bus adapters |
@@ -69,11 +69,12 @@ Historical claims must be sourced and dated. Distinguish normative specification
 - [x] 03 — APB ([lesson](lessons/03-apb-protocol-deep-dive.md))
 - [x] 04 — AHB / AHB-Lite ([lesson](lessons/04-ahb-ahb-lite-protocol-deep-dive.md))
 - [x] 05 — AXI Fundamentals ([lesson](lessons/05-axi-fundamentals-five-channels.md))
-- [ ] 06–38 — Remaining sessions — planned
+- [x] 06 — AXI Advanced ([lesson](lessons/06-axi-advanced-transactions-performance.md))
+- [ ] 07–38 — Remaining sessions — planned
 
 ## Current next lesson
 
-- [ ] 06 — AXI advanced: burst address generation, unaligned accesses, byte strobes, ordering, exclusive accesses, QoS, AXI4-Lite, AXI4-Stream, bridges and width conversion.
+- [ ] 07 — AXI interconnect implementation: crossbar microarchitecture, arbitration, routing, buffering, response tracking, deadlock, timing closure and performance instrumentation.
 
 ## Reference design philosophy
 

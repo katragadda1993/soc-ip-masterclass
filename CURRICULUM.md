@@ -30,7 +30,7 @@ Historical claims must be sourced and dated. Distinguish normative specification
 | 05 | AXI fundamentals | Five channels, VALID/READY, independent address/data, IDs, responses, outstanding transactions |
 | 06 | AXI advanced | Bursts, unaligned transfers, strobes, ordering, QoS, atomics, AXI-Lite, AXI-Stream, width conversion and performance |
 | 07 | Interconnect implementation | Crossbar microarchitecture, muxing, buffering, routing, deadlock, performance and timing closure |
-| 08 | NoC | Routers, links, virtual channels, packetization, topology, routing, flow control, QoS and coherency transport |
+| 08 | NoC | Routers, links, virtual channels, packetization, topology, routing, flow control, QoS, coherent transport, deadlock and performance |
 | 09 | CPU subsystem | Pipeline, privilege, MMU/MPU, TLB, exceptions, debug, boot interface and bus adapters |
 | 10 | Cache and coherency | Cache hierarchy, write policies, snoop, directory, ACE/CHI concepts, barriers and DMA coherency |
 | 11 | SRAM / ROM / OTP | Macro interfaces, banking, ECC, scrambling, retention, BIST, ROM integrity and fuse semantics |
@@ -71,11 +71,12 @@ Historical claims must be sourced and dated. Distinguish normative specification
 - [x] 05 — AXI Fundamentals ([lesson](lessons/05-axi-fundamentals-five-channels.md))
 - [x] 06 — AXI Advanced ([lesson](lessons/06-axi-advanced-transactions-performance.md))
 - [x] 07 — AXI Interconnect Implementation ([lesson](lessons/07-axi-interconnect-implementation.md))
-- [ ] 08–38 — Remaining sessions — planned
+- [x] 08 — Network-on-Chip ([lesson](lessons/08-network-on-chip-deep-dive.md))
+- [ ] 09–38 — Remaining sessions — planned
 
 ## Current next lesson
 
-- [ ] 08 — Network-on-Chip (NoC): routers, links, packetization, virtual channels, routing, flow control, QoS, topology and coherency transport.
+- [ ] 09 — CPU Subsystem: pipeline, privilege, MMU/MPU, TLB, exceptions, debug, boot interface and bus adapters.
 
 ## Reference design philosophy
 

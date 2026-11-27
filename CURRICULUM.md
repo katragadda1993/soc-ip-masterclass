@@ -34,9 +34,9 @@ Historical claims must be sourced and dated. Distinguish normative specification
 | 09 | CPU subsystem | ISA vs microarchitecture, pipeline, hazards, retirement, privilege, MMU/MPU, TLB, PMP/PMA, exceptions, interrupts, debug, boot and bus adapters |
 | 10 | Cache and coherency | Cache hierarchy, write policies, snoop, directory, ACE/CHI concepts, barriers and DMA coherency |
 | 11 | SRAM / ROM / OTP | Macro interfaces, banking, ECC, scrambling, retention, BIST, ROM integrity and fuse semantics |
-| 12 | DDR / LPDDR | DRAM organization, ACT/PRE/RD/WR/REF commands, timing, refresh, bank scheduling, address mapping, DDR/LPDDR/HBM trade-offs, PHY training, SI/PI, ECC/RAS and silicon characterization |
+| 12 | DDR / LPDDR | DRAM organization, ACT/PRE/RD/WR/REF commands, timing, refresh, bank scheduling, address mapping, bandwidth/latency, DDR/LPDDR/HBM trade-offs, PHY training, SI/PI, ECC/RAS and silicon characterization |
 | 13 | DMA architecture | Descriptors, rings, scatter-gather, alignment, IOMMU, coherency, interrupts and throughput |
-| 14 | Clock architecture | PLLs, muxes, dividers, gating, jitter, clock trees, CDC and clock monitors |
+| 14 | Clock architecture | PLLs, reference sources, frequency synthesis, muxes, dividers, glitch-free switching, ICG/clock gating, jitter, phase noise, CTS topologies, skew, setup/hold, CDC/RDC, clock monitors, DVFS sequencing and silicon characterization |
 | 15 | Reset architecture | POR, warm/watchdog reset, reset trees, sequencing, RDC, reset domains and recovery |
 | 16 | Power management | Power domains, isolation, retention, DVFS, idle handshakes, wakeup and power-state coordination |
 | 17 | Interrupts and timers | Edge/level, priority, PLIC/GIC concepts, claim/complete, timer, watchdog and latency |
@@ -77,7 +77,8 @@ Historical claims must be sourced and dated. Distinguish normative specification
 - [x] 11 — SRAM / ROM / OTP ([lesson](lessons/11-sram-rom-otp-deep-dive.md))
 - [x] 12 — DDR / LPDDR ([lesson](lessons/12-ddr-lpddr-controller-phy-deep-dive.md))
 - [x] 13 — DMA Architecture ([lesson](lessons/13-dma-architecture-descriptors-rings-coherency.md))
-- [ ] 14–38 — Remaining sessions — planned
+- [x] 14 — Clock Architecture ([lesson](lessons/14-clock-architecture-plls-clock-trees-cdc.md))
+- [ ] 15–38 — Remaining sessions — planned
 
 ## Current next lesson
 
@@ -85,7 +86,8 @@ Historical claims must be sourced and dated. Distinguish normative specification
 - [x] 11 — SRAM / ROM / OTP: macro interfaces, 6T bitcell operation, banking, ECC/integrity, scrambling, retention, MBIST/BISR, ROM integrity and OTP provisioning ([lesson](lessons/11-sram-rom-otp-deep-dive.md)).
 - [x] 12 — DDR / LPDDR: 1T1C DRAM, command/state model, timing scoreboard, controller scheduling, address mapping, bandwidth/latency, PHY training, LPDDR power states, ECC/RAS, verification and silicon debug ([lesson](lessons/12-ddr-lpddr-controller-phy-deep-dive.md)).
 - [x] 13 — DMA Architecture: descriptors, rings, scatter-gather, alignment, IOMMU, coherency, interrupts and throughput ([lesson](lessons/13-dma-architecture-descriptors-rings-coherency.md)).
-- [ ] 14 — Clock Architecture: PLLs, muxes, dividers, gating, jitter, clock trees, CDC and clock monitors.
+- [x] 14 — Clock Architecture: reference sources, PLL frequency synthesis, muxes/dividers, glitch-free switching, ICG, CTS, jitter/skew, setup/hold, CDC/RDC, reset sequencing, DVFS, clock monitoring and post-silicon characterization ([lesson](lessons/14-clock-architecture-plls-clock-trees-cdc.md)).
+- [ ] 15 — Reset Architecture: POR, warm/watchdog reset, reset trees, sequencing, RDC, reset domains and recovery.
 
 ## Reference design philosophy
 
